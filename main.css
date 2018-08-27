@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background-color: #555;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.title {
+  font-size: 30px;
+}
+
+.row {
+  margin: 1px;
+  max-height: 20px; }
+
+.light {
+  margin: 1px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0); }
+
+.control {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px 8px 3px 8px;
+}
